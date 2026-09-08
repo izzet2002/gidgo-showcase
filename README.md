@@ -30,7 +30,7 @@ This repository is a **public engineering overview**, not the application source
 ## Architecture, simplified
 
 ```mermaid
-flowchart LR
+flowchart TB
     C[Web and Android clients] --> G[API gateway]
     G --> S[Spring Boot domain services]
     S --> D[PostgreSQL and Redis]

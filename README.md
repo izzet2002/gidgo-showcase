@@ -8,6 +8,49 @@ Gidgo is an independently developed travel marketplace connecting travellers wit
 
 This repository is a **public engineering overview**, not the application source. Gidgo remains a private commercial product.
 
+**[Open the live web demo →](https://demo.gidgo.net)** · [Android test build (APK)](https://demo.gidgo.net/app) · [Contact the developer](mailto:narman.roglu@gmail.com)
+
+## See the product
+
+![Natural-language hotel search in the Gidgo web demo, with matching listings and prices](assets/web-ai-search.png)
+
+*Real application screens, captured in September 2026 using demo listings. Names, images, ratings and prices illustrate the product; they are not evidence of commercial partnerships or live booking availability.*
+
+### A three-minute walkthrough
+
+1. Open the [web demo](https://demo.gidgo.net) and try **“4 star hotel in Bishkek with breakfast and parking”**. Compare the returned listings with the request.
+2. Open a hotel to inspect rooms, amenities and the reservation price breakdown. Switch the interface language to explore the multilingual experience.
+3. Optionally try the [Android test build](https://demo.gidgo.net/app). This is a direct APK download, not a Google Play listing; the browser demo is sufficient for an initial review.
+
+Public search and listing pages can be explored without signing in. There is no need to submit a booking or enter personal/payment information for this walkthrough. Business-panel access can be demonstrated on request; credentials are not published here. This is a development demo, so data and availability may change.
+
+<details>
+<summary><strong>Hotel details and reservation summary</strong></summary>
+
+![Hotel detail screen with a room selector, dates, total price, pay-now amount and amount payable at the venue](assets/web-hotel-detail.png)
+
+The customer view connects catalog information with room selection and a clear reservation cost breakdown.
+
+</details>
+
+<details>
+<summary><strong>Restaurant operator panel</strong></summary>
+
+![Restaurant operator panel with menu categories, dish prices and availability controls, using a demo account](assets/web-restaurant-panel.png)
+
+The business view supports menu management, including categories, pricing and dish availability. This screenshot uses a seeded demo operator, not a customer account.
+
+</details>
+
+<details>
+<summary><strong>Android — captured on a physical device</strong></summary>
+
+<img src="assets/android-search.png" width="320" alt="Gidgo Android app on a physical Samsung phone showing hotel search results, prices and navigation tabs" />
+
+Search results from the installed Android app, version 1.30.2, captured on 10 September 2026. This is an actual application screenshot, not a design mockup; the download page may carry a newer build later.
+
+</details>
+
 ## At a glance
 
 | Area | Technologies and scope |

@@ -12,7 +12,7 @@ This repository is a **public engineering overview**, not the application source
 
 ## See the product
 
-[![Natural-language hotel search in the Gidgo web demo: the request "4 star hotel in Bishkek with breakfast and parking" returns ten AI-ranked stays, each showing why it matched](assets/web-ai-search.jpg)](https://demo.gidgo.net)
+[![Natural-language hotel search in the Gidgo web demo: the request "5 star hotel in Bishkek with breakfast" returns five AI-ranked five-star stays, each showing why it matched](assets/web-ai-search.jpg)](https://demo.gidgo.net)
 
 **Natural-language search.** A plain request becomes structured filters — city, star class, amenities. The search index returns the listings, and each result states why it matched.
 
@@ -37,7 +37,7 @@ This repository is a **public engineering overview**, not the application source
 
 ### A three-minute walkthrough
 
-1. Open the [web demo](https://demo.gidgo.net) and try **“4 star hotel in Bishkek with breakfast and parking”**. Compare the returned listings with the request.
+1. Open the [web demo](https://demo.gidgo.net) and try **“5 star hotel in Bishkek with breakfast”**. Compare the returned listings with the request.
 2. Open a hotel to inspect rooms, amenities and the reservation price breakdown. Switch the interface language to explore the multilingual experience.
 3. Optionally try the [Android test build](https://demo.gidgo.net/app). This is a direct APK download, not a Google Play listing; the browser demo is sufficient for an initial review.
 

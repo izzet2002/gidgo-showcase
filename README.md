@@ -12,7 +12,26 @@ This repository is a **public engineering overview**, not the application source
 
 ## See the product
 
-![Natural-language hotel search in the Gidgo web demo, with matching listings and prices](assets/web-ai-search.png)
+[![Natural-language hotel search in the Gidgo web demo: the request "4 star hotel in Bishkek with breakfast and parking" returns ten AI-ranked stays, each showing why it matched](assets/web-ai-search.jpg)](https://demo.gidgo.net)
+
+**Natural-language search.** A plain request becomes structured filters — city, star class, amenities. The search index returns the listings, and each result states why it matched.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/web-hotel-booking.jpg" alt="Hotel detail with a room selector, dates, the total price, the reservation fee payable now and the balance payable at the property">
+      <p><strong>Booking with a deposit.</strong> Room, dates and a clear cost breakdown: only the reservation fee is paid online; the balance is paid at the property.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/web-partner-console.jpg" alt="Restaurant operator console with menu categories, dish prices and availability toggles, using a seeded demo operator">
+      <p><strong>Operator console.</strong> Businesses manage their own catalogue — here menu categories, prices and dish availability, shown with a seeded demo operator.</p>
+    </td>
+  </tr>
+</table>
+
+![Three screens of the Gidgo Android app: a natural-language request, ten AI-ranked results, and a hotel with a room selected showing the total and the amount paid now](assets/android-app.jpg)
+
+**Android app, version 1.30.2** — request → AI-ranked results → room selected, with the total and the amount paid now. Captured on a physical Samsung phone and set in simple frames; only the system status and navigation bars are cropped.
 
 *Real application screens, captured in September 2026 using demo listings. Names, images, ratings and prices illustrate the product; they are not evidence of commercial partnerships or live booking availability.*
 
@@ -23,33 +42,6 @@ This repository is a **public engineering overview**, not the application source
 3. Optionally try the [Android test build](https://demo.gidgo.net/app). This is a direct APK download, not a Google Play listing; the browser demo is sufficient for an initial review.
 
 Public search and listing pages can be explored without signing in. There is no need to submit a booking or enter personal/payment information for this walkthrough. Business-panel access can be demonstrated on request; credentials are not published here. This is a development demo, so data and availability may change.
-
-<details>
-<summary><strong>Hotel details and reservation summary</strong></summary>
-
-![Hotel detail screen with a room selector, dates, total price, pay-now amount and amount payable at the venue](assets/web-hotel-detail.png)
-
-The customer view connects catalog information with room selection and a clear reservation cost breakdown.
-
-</details>
-
-<details>
-<summary><strong>Restaurant operator panel</strong></summary>
-
-![Restaurant operator panel with menu categories, dish prices and availability controls, using a demo account](assets/web-restaurant-panel.png)
-
-The business view supports menu management, including categories, pricing and dish availability. This screenshot uses a seeded demo operator, not a customer account.
-
-</details>
-
-<details>
-<summary><strong>Android — captured on a physical device</strong></summary>
-
-<img src="assets/android-search.png" width="320" alt="Gidgo Android app on a physical Samsung phone showing hotel search results, prices and navigation tabs" />
-
-Search results from the installed Android app, version 1.30.2, captured on 10 September 2026. This is an actual application screenshot, not a design mockup; the download page may carry a newer build later.
-
-</details>
 
 ## At a glance
 
